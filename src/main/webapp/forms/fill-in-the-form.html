@@ -1,0 +1,58 @@
+<form role="form" name="form">
+    <div class="form-group">
+        <label for="customerName-field">* Customer Name</label>
+        <input required
+               cam-variable-name="customerName"
+               cam-variable-type="String"
+               class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label for="sla-field">SLA Select</label>
+        <select cam-variable-name="sla"
+                cam-variable-type="String"
+                cam-choices="slaSelectValues">
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label for="var1-field">Var 1</label>
+        <input
+               cam-variable-name="var1"
+               cam-variable-type="String"
+               class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label for="var2-field">Var 2</label>
+        <input
+               cam-variable-name="var2"
+               cam-variable-type="Integer"
+               class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label for="var3-field">Var 3</label>
+        <input
+               cam-variable-name="var3"
+               cam-variable-type="Double"
+               class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label for="var4-field">Var 4</label>
+        <input
+               cam-variable-name="var4"
+               cam-variable-type="Long"
+               class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label for="var5-field">Var 5</label>
+        <input
+               cam-variable-name="var5"
+               cam-variable-type="Boolean"
+               class="form-control" />
+    </div>
+
+</form>
